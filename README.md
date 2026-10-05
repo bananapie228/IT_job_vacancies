@@ -1,8 +1,6 @@
 # Midterm Project Deliverables: IT Specialist Grade Classification
 **Course:** Machine Learning Algorithms  
-**Project Phase:** Midterm Milestone  
-**Authors:** Galymzhan Turemuratov & [Partner Name]  
-**Artifact Directory:** `/Users/galymzhanturemuratov/.gemini/antigravity/scratch/hh_grade_classification`
+**Authors:** Galymzhan Turemuratov & Zholdubayev Diyar 
 
 ---
 
@@ -67,7 +65,7 @@ A central pedagogical and scientific objective of this Midterm deliverable is to
   - Engineering dual-persistence pipelines for SQLite and CSV raw snapshots.
   - Designing the tabular data preprocessing pipeline: HTML sanitization, salary median imputation with missingness indicators, and technical skill parsing.
   - Formulating the pseudo-ground truth labeling logic (`Junior`, `Middle`, `Senior`).
-- **[Partner Name]**:
+- **Zholdubayev Diyar**:
   - Implementation of baseline classification models (Multinomial Logistic Regression and K-Nearest Neighbors).
   - Setup and execution of the dual-path experimental methodology (**Scenario A: Data Leakage** vs. **Scenario B: Honest Baseline**).
   - Metric computation (Accuracy, Precision, Recall, Macro/Weighted F1-score) and confusion matrix visualization.
@@ -106,10 +104,3 @@ In accordance with course integrity and responsible AI guidelines, our team util
    - High positive coefficients for **Junior**: Lower salary, presence of basic Git/Linux without orchestration, shorter vacancy descriptions.
    - Border errors occur primarily between **Middle** and **Junior** / **Middle** and **Senior** due to overlapping compensation bands in the IT industry.
 
----
-
-
-  - **Roadmap for Endterm & Final**:
-    1. *NLP on Job Descriptions*: TF-IDF with n-grams, Word2Vec, and pretrained transformer embeddings (RuBERT).
-    2. *Non-linear Ensembles*: Random Forest, CatBoost, and LightGBM with gradient boosting.
-    3. *Hyperparameter Optimization*: 5-Fold Stratified Cross-Validation and Bayesian optimization via Optuna.
